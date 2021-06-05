@@ -1,0 +1,30 @@
+{
+  "type": "record",
+  "name": "Game",
+  "namespace": "io.code.gamedb",
+  "fields": [
+    {
+      "name": "id",
+      "type": "int"
+    },
+    {
+      "name": "rating",
+      "type": "float"
+    },
+    {
+      "name": "name",
+      "type": "string"
+    },
+    {
+      "name": "manufacturer",
+      "type": "string"
+    },
+    {
+      "name": "genre",
+      "type": "string"
+    },
+    {
+      "name": "releaseDate",
+      "type": "string"
+    }]
+}
